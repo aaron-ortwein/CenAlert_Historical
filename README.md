@@ -120,7 +120,7 @@ python3 -c "import sys, pickle, json, numpy as np; pickle.dump(tuple(np.float64(
 
 *CenAlert* can be run for a single country as follows:
 ```bash
-python -m cenalert.run --path <time_series>.csv --algorithm <chebyshev|median|iforest|lof> --parameters <selected_parameters>.pkl --output <output_directory> [--events <events>.csv]
+python3 -m cenalert.run --path <time_series>.csv --algorithm <chebyshev|median|iforest|lof> --parameters <selected_parameters>.pkl --output <output_directory> [--events <events>.csv]
 ```
 
 For example,
